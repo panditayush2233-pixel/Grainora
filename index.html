@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#123b25">
+  <meta name="description" content="Grainora — Purani Parampara, Nayi Sehat. Millet sweets, seed bites and multigrain goodness.">
+  <title>Grainora | Purani Parampara, Nayi Sehat</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="announcement"><span>🌾 Desi goodness, delivered with care</span><span>Rajrooppur, Prayagraj • WhatsApp orders open</span></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Grainora home">
+      <span class="brand-mark">🌿</span><span><strong>Grainora</strong><small>PURANI PARAMPARA, NAYI SEHAT</small></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu">☰</button>
+    <nav id="mainNav">
+      <a href="#shop">Shop</a><a href="#goodness">Our Goodness</a><a href="#story">Our Story</a><a href="#reviews">Reviews</a>
+      <button class="cart-nav" id="openCart">🛒 Cart <span id="cartCount">0</span></button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="eyebrow-line"></span> TRADITION MEETS EVERYDAY WELLNESS</div>
+        <h1>Goodness of nature.<br><em>Joy in every bite.</em></h1>
+        <p>Discover the familiar comfort of desi flavours, thoughtfully made with millets, grains and seeds.</p>
+        <div class="hero-actions"><a class="btn btn-primary" href="#shop">Explore Products <span>↗</span></a><a class="text-link" href="#story">The Grainora story <span>→</span></a></div>
+        <div class="hero-trust"><div class="trust-avatars"><span>🌾</span><span>🌱</span><span>🥜</span></div><div><strong>Rooted in tradition</strong><small>Made for today's lifestyle</small></div></div>
+      </div>
+      <div class="hero-art reveal">
+        <div class="hero-glow"></div><div class="hero-sticker">DESI<br><b>SWAD</b><br>♥</div>
+        <img src="assets/millet-ladoo.png" alt="Grainora millet ladoo product packaging" class="hero-product">
+        <div class="floating-note note-one">🌿 Thoughtful ingredients</div><div class="floating-note note-two">✨ A little joy in every bite</div>
+      </div>
+      <div class="hero-bottom"><span>01 — THE GRAINORA WAY</span><span>SCROLL TO DISCOVER ↓</span></div>
+    </section>
+
+    <section class="ticker" aria-label="Brand values"><div class="ticker-track"><span>🌾 OLD ROOTS, NEW ENERGY</span><i>✳</i><span>DESI SWAD, EVERYDAY JOY</span><i>✳</i><span>GRAINORA GOODNESS</span><i>✳</i><span>OLD ROOTS, NEW ENERGY</span><i>✳</i><span>DESI SWAD, EVERYDAY JOY</span><i>✳</i></div></section>
+
+    <section class="shop section-pad" id="shop">
+      <div class="section-heading reveal"><div><div class="eyebrow">THE GRAINORA COLLECTION</div><h2>Good things, <em>made desi.</em></h2></div><p>Find your everyday favourite. Add it to your cart and place your order directly on WhatsApp.</p></div>
+      <div class="filter-row reveal"><span class="result-label">OUR PICKS <b id="productCount">05 PRODUCTS</b></span><div class="filters"><button class="filter active" data-filter="all">All products</button><button class="filter" data-filter="sweets">Millet sweets</button><button class="filter" data-filter="seeds">Seed bites</button><button class="filter" data-filter="staples">Daily staples</button></div></div>
+      <div class="product-grid" id="productGrid"></div>
+    </section>
+
+    <section class="goodness section-pad" id="goodness">
+      <div class="goodness-intro reveal"><div class="eyebrow light">SMALL CHOICES, GOOD FEELING</div><h2>Tradition has<br><em>good things</em> to offer.</h2><p>Grainora brings together familiar ingredients and a love for timeless desi food. Check each product's ingredients and nutrition details before ordering.</p><a href="#shop" class="btn btn-cream">Find your favourite <span>↗</span></a></div>
+      <div class="benefit-grid">
+        <article class="benefit-card reveal"><span class="benefit-icon">🌾</span><h3>Grain goodness</h3><p>Millets and grains bring variety to everyday meals.</p><span class="benefit-number">01</span></article>
+        <article class="benefit-card reveal"><span class="benefit-icon">🌰</span><h3>Seeds & crunch</h3><p>Seed-based treats add texture and a nutty, satisfying bite.</p><span class="benefit-number">02</span></article>
+        <article class="benefit-card reveal"><span class="benefit-icon">🪔</span><h3>Desi inspiration</h3><p>Classic Indian flavours inspired by familiar traditions.</p><span class="benefit-number">03</span></article>
+        <article class="benefit-card reveal"><span class="benefit-icon">💚</span><h3>Made to savour</h3><p>Enjoy mindfully, with ingredient and allergen details in mind.</p><span class="benefit-number">04</span></article>
+      </div>
+    </section>
+
+    <section class="story section-pad" id="story">
+      <div class="story-image reveal"><img src="assets/multi-grain-atta.png" alt="Grainora multigrain atta pack"><div class="story-seal">PURANI<br>PARAMPARA<br><span>✳</span><br>NAYI SEHAT</div></div>
+      <div class="story-copy reveal"><div class="eyebrow">A LITTLE ABOUT US</div><h2>Honouring roots.<br><em>Creating new rituals.</em></h2><p>Grainora is inspired by the everyday foods and ingredients that have been part of Indian kitchens for generations. From millet sweets to seed-rich bites and multigrain staples, our collection celebrates a delicious connection between tradition and today.</p><p>We believe good food starts with clear information, care in preparation and flavours worth coming back to.</p><div class="signature">With care, <strong>Team Grainora</strong> 🌿</div><a class="text-link" href="#shop">Explore the collection <span>→</span></a></div>
+    </section>
+
+    <section class="reviews section-pad" id="reviews">
+      <div class="section-heading reveal"><div><div class="eyebrow">KIND WORDS, GOOD FOOD</div><h2>A little love for <em>desi flavour.</em></h2></div><div class="review-disclaimer">Preview testimonials — replace with verified customer reviews before publishing.</div></div>
+      <div class="review-grid">
+        <article class="review-card reveal"><div class="stars">★★★★★</div><p>“Love the idea of bringing millet-based treats into a familiar desi snack format. The packaging feels warm and premium.”</p><div class="review-person"><span class="person-avatar">A</span><span><strong>Early brand impression</strong><small>Product concept feedback</small></span><span class="quote-mark">”</span></div></article>
+        <article class="review-card review-featured reveal"><div class="stars">★★★★★</div><p>“A lovely mix of tradition and a modern look. The seed ladoo and barfi concepts look perfect for gifting.”</p><div class="review-person"><span class="person-avatar">G</span><span><strong>Packaging preview</strong><small>Design feedback</small></span><span class="quote-mark">”</span></div></article>
+        <article class="review-card reveal"><div class="stars">★★★★★</div><p>“The collection makes it easy to explore different grains and seeds. Looking forward to trying the products.”</p><div class="review-person"><span class="person-avatar">S</span><span><strong>Product range preview</strong><small>Concept feedback</small></span><span class="quote-mark">”</span></div></article>
+      </div>
+    </section>
+
+    <section class="cta-band"><div class="cta-leaf">✳</div><div><div class="eyebrow light">YOUR NEXT FAVOURITE IS A CLICK AWAY</div><h2>Ready for a little <em>Grainora goodness?</em></h2><p>Build your cart. Check your total. Send your order on WhatsApp.</p></div><a class="btn btn-cream" href="#shop">Shop the collection ↗</a></section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-main"><div class="footer-brand"><a class="brand brand-footer" href="#home"><span class="brand-mark">🌿</span><span><strong>Grainora</strong><small>PURANI PARAMPARA, NAYI SEHAT</small></span></a><p>Goodness of nature, inspired by our roots.</p></div>
+      <div><h4>Explore</h4><a href="#shop">Shop products</a><a href="#goodness">Our goodness</a><a href="#story">Our story</a></div>
+      <div><h4>Get in touch</h4><a href="tel:+917309011129">7309011129</a><a href="tel:+917985167321">7985167321</a><a href="mailto:Grainoradesiproducts@gmail.com">Grainoradesiproducts@gmail.com</a><p>Rajrooppur, Prayagraj, Uttar Pradesh</p></div>
+      <div><h4>Order directly</h4><p>Have a question? Send us a WhatsApp message.</p><button class="btn btn-primary" id="footerWhatsApp">Chat on WhatsApp ↗</button></div>
+    </div><div class="footer-bottom"><span>© <span id="year"></span> Grainora. All rights reserved.</span><span>Made with care 🌱</span><a href="#home">Back to top ↑</a></div>
+  </footer>
+
+  <a class="floating-whatsapp" id="floatingWhatsApp" href="#" aria-label="Chat on WhatsApp">☏<span>Order on WhatsApp</span></a>
+
+  <div class="cart-overlay" id="cartOverlay"></div>
+  <aside class="cart-drawer" id="cartDrawer" aria-label="Shopping cart" aria-hidden="true">
+    <div class="cart-head"><div><span class="eyebrow">YOUR GRAINORA BAG</span><h2>Your cart <span id="drawerCount">(0)</span></h2></div><button class="close-cart" id="closeCart" aria-label="Close cart">×</button></div>
+    <div class="cart-items" id="cartItems"><div class="empty-cart"><span>🛒</span><h3>Your bag is waiting</h3><p>Add something delicious from our collection.</p><button class="btn btn-primary" id="continueShopping">Explore products</button></div></div>
+    <div class="cart-summary" id="cartSummary"><div class="summary-line"><span>Subtotal</span><strong id="subtotal">₹0</strong></div><div class="summary-line"><span>Delivery</span><strong>Confirm on WhatsApp</strong></div><div class="summary-total"><span>Estimated total</span><strong id="grandTotal">₹0</strong></div><p>Delivery charges, availability and final amount will be confirmed by Grainora.</p>
+      <form id="checkoutForm"><label for="customerName">Your name</label><input id="customerName" name="customerName" placeholder="Enter your name" required><label for="customerPhone">Phone number</label><input id="customerPhone" name="customerPhone" type="tel" inputmode="tel" placeholder="Your contact number" required><label for="customerAddress">Delivery address</label><textarea id="customerAddress" name="customerAddress" rows="2" placeholder="House / street, area, city" required></textarea><label for="customerNote">Order note (optional)</label><textarea id="customerNote" name="customerNote" rows="2" placeholder="Any instructions?"></textarea><button type="submit" class="btn btn-whatsapp">Send order on WhatsApp <span>↗</span></button></form>
+    </div>
+  </aside>
+  <div class="toast" id="toast" role="status"></div>
+  <script src="products.js"></script><script src="script.js"></script>
+</body>
+</html>
